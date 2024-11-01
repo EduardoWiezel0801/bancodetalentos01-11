@@ -1,0 +1,30 @@
+.aboutMe{
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;      
+    border-bottom: 2px solid var(--color-gray);
+    
+}
+.aboutTitle{
+    width: 40%;
+    font-size: clamp(1.25rem, 0rem + 100vw, 3.125rem);
+}
+.aboutP{
+    width: 50%;
+    font-size: clamp(0.563rem, 0rem + 100vw, 1.125rem);
+    text-align:justify;
+}
+@media (max-width:500px){
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutTitle{
+        width: 90%;
+    }
+    .aboutP{
+        width: 90%;
+    }
+}

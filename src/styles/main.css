@@ -1,0 +1,9 @@
+#root{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerMain{
+    max-width: 56.75rem;
+
+}

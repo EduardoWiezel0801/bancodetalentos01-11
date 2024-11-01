@@ -1,11 +1,13 @@
-import htmlIcon from "../assets/html-icon.png";
-import cssIcon from "../assets/css-icon.png";
-import jsIcon from "../assets/js-icon.png";
-import reactIcon from "../assets/react-icon.png";
+import chiaperini from "../assets/chiaperini_logo.png";
+import prefeitura from "../assets/prefeitura.jpg";
+import techto from "../assets/logo-techto.png";
+import mercadao from "../assets/mercadao.jpg";
+import desenvolvimento from "../assets/desenvolvimento.jpg";
 
 export const technologies = [
-  { name: "HTML", img: htmlIcon },
-  { name: "CSS", img: cssIcon },
-  { name: "Javascript", img: jsIcon },
-  { name: "React", img: reactIcon },
+  { name: "", img: chiaperini,  },
+  { name: "", img: prefeitura },
+  { name: "", img: techto },
+  { name: "", img: mercadao },
+  { name: "", img: desenvolvimento},
 ];

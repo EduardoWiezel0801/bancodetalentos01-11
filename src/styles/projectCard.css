@@ -1,0 +1,35 @@
+.projectCardContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;    
+    
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+
+    
+    
+    
+    
+}
+
+.nameProj{
+    font-weight: 800;
+}
+.descriptionProj{
+
+    font-weight: 400;
+}
+
+.aboutProj{
+    font-weight: 700;
+}
